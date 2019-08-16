@@ -14,7 +14,6 @@ int combo = 0;
 String status = "";
 boolean hit = false;
 int y2= y;
-Amplitude amp;
 int r = 0;
 int g = 0;
 int b = 0;
@@ -30,7 +29,6 @@ void setup(){
   Derecha = loadImage("Derecha_vacio.png");
   Abajo = loadImage("Abajo_vacio.png");
   Izquierda = loadImage("Izquierda_vacio.png");
-  amp = new Amplitude(this);
   file = new SoundFile(this, "In The Groove - Delirium.wav");
   file.play();
 
