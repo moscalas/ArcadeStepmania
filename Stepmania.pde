@@ -49,7 +49,6 @@ void draw(){
    stroke(255);
    text("Puntaje: " + puntaje,700,50);
    text("Combo: " + combo,700,100);
-   fill(r,g,b);
    textSize(40);
    textAlign(CENTER);
    text(status,400,500);
